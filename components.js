@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         </style>
         <div class="nav-container">
-            <a href="index.html" class="logo">الشيخ إبراهيم عبيدي<img src="images/شعار.png" alt="الشيخ ابراهيم عبيدي"
+            <a href="index.html" class="logo"><img src="images/شعار.png" alt="الشيخ ابراهيم عبيدي"
             </a>
             <nav class="nav-menu">
                 <a href="index.html">الرئيسية</a>
@@ -361,3 +361,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
