@@ -41,7 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 color: var(--accent-color);
                 text-decoration: none;
             }
-
+.img{ 
+width:50px;
+  height:50px;
+}
             .nav-menu {
                 display: flex;
                 list-style: none;
@@ -130,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         </style>
         <div class="nav-container">
-            <a href="index.html" class="logo"><img src="images/شعار.png" alt="الشيخ ابراهيم عبيدي"
+            <a href="index.html" class="logo"><img  class="img"  src="images/شعار.png" alt="الشيخ ابراهيم عبيدي"
             </a>
             <nav class="nav-menu">
                 <a href="index.html">الرئيسية</a>
@@ -361,4 +364,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
