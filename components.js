@@ -130,7 +130,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         </style>
         <div class="nav-container">
-            <a href="index.html" class="logo">الشيخ إبراهيم عبيدي</a>
+            <a href="index.html" class="logo">الشيخ إبراهيم عبيدي<img src="images/شعار.png" alt="الشيخ ابراهيم عبيدي"
+            </a>
             <nav class="nav-menu">
                 <a href="index.html">الرئيسية</a>
                 <a href="about.html">من نحن</a>
@@ -358,4 +359,5 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileNav.classList.remove('active');
         });
     });
+
 });
