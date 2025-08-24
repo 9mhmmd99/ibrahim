@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let searchBox = document.createElement("div");
     searchBox.innerHTML = `
         <div style="position:fixed;top:10px;right:10px;z-index:9999;background:#fff;
-                    border:1px solid #ccc;padding:5px; margin-right:40%;  border-radius:8px;
+                    border:1px solid #ccc;padding:5px; margin-right:15%;  border-radius:8px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2);width:40%;font-family:sans-serif;">
             <input type="text" id="keywordInput" 
                 placeholder="ابحث عن طلبك داخل موقعنا..." 
